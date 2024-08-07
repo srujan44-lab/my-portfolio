@@ -1,0 +1,88 @@
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+
+.container {
+    max-width: 1000px;
+    border-radius: 5px;
+    margin: 0 auto;
+    padding: 40px;
+    background-color: lightblue;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+}
+
+.cancel{
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.cancel-button{
+    width: 100px;
+    background-color:rgb(230, 249, 255);
+    color: black;
+    padding:15px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: medium;
+}
+
+.cancel-button:hover{
+    color: lightblue;
+}
+/* --------------------------------------------------------------- */
+
+.gen{
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 0;
+    padding: 15px 45px;
+}
+
+.format1{
+    background-color:rgb(230, 249, 255);
+    border: none;
+    border-radius: 10px;
+    
+}
+
+.data{
+    margin: 30px 0;
+    padding: 30px 45px;
+}
+
+.inp{
+    display: block;
+    margin: 10px 0 30px 0;
+}
+
+#subject{
+    width: 50%;
+    height: 20px;
+    background-color: inherit;
+    border: none;
+    border-bottom: 2px solid black;
+}
+
+#descr{
+    width: 100%;
+    height: 40px;
+    background-color: inherit;
+    border: 0.5px solid black;
+}
+
+#submit{
+    width: 100px;
+    color: black;
+    background-color:rgb(230, 249, 255);
+   
+    padding:15px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: medium;
+}
