@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="register.css">
+    <title>Admin Panel</title>
+</head>
+<body>
+    <div class="admin-panel">
+        <div class="header">
+            <div class="heading">
+                <h2>Welcome back, Admin</h1>
+            </div>
+            <div class="logout-button-div">
+                <a href="/"><button class="logout-button">Logout</button></a>
+            </div>
+        </div>
+        <h1 class="title">Add a New User</h1>
+        <form id="user-form" class="user-form" method="POST">
+            <div class="form-group">
+                <label for="username2">Username:</label>
+                <input type="text" id="username2" name="username2" required>
+            </div>
+            <div class="form-group">
+                <label for="password2">Password:</label>
+                <input type="password" id="password2" name="password2" required>
+            </div>
+            <div class="form-group">
+                <label for="role2">Role:</label>
+                <select id="role2" name="role2">
+                    <option value="Employee">Employee</option>
+                    <option value="Change-team">Change Team</option>
+                    <option value="Manager">Manager</option>
+                    <option value="Resource-manager">Resource Manager</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <button class="add-button" type="submit">Add User</button>
+            </div>
+        </form>
+    </div>
+</body>
+</html>

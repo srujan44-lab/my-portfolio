@@ -1,0 +1,53 @@
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+}
+
+.logout{
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.logout-button{
+    width: 100px;
+    background-color: lightblue;
+    color: white;
+    padding:15px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: medium;
+}
+
+.logout-button:hover{
+    color: black;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+table,td,th{
+    border: 1px solid black;
+}
+
+th{
+    background: lightblue;
+    padding: 15px;
+}
+
+td{
+    text-align: center;
+    padding: 15px;
+}
